@@ -42,7 +42,7 @@ li:before {
   display: block;
   position: absolute; /*絶対配置*/
   left: -10px; /*点の位置*/
-  top: 0.6em; /*点の位置*/
+  top: 0.5em; /*点の位置*/
   content: "";
   background: rgb(143, 145, 145); /*点の色*/
 }
