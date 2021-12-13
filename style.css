@@ -1,0 +1,52 @@
+header {
+  width: 100%;
+  height: 50px;
+  top: 0;
+  background: rgb(136, 224, 205);
+  position: fixed;
+  z-index: 1;
+}
+
+label {
+  line-height: 50px;
+  margin-left: 10px;
+}
+
+#clear {
+  font-size: 0.8em;
+}
+
+.main {
+  margin: 70px 10px;
+  display: block;
+  z-index: 0;
+}
+
+span {
+  color: rgb(45, 116, 100);
+}
+
+.hide {
+  display: none; /*非表示にする*/
+}
+
+li {
+  list-style-type: none; /*点を非表示*/
+  position: relative; /*基準位置*/
+}
+
+li:before {
+  border-radius: 50%; /*丸くする*/
+  width: 5px; /*点の幅*/
+  height: 5px; /*点の高さ*/
+  display: block;
+  position: absolute; /*絶対配置*/
+  left: -10px; /*点の位置*/
+  top: 0.5em; /*点の位置*/
+  content: "";
+  background: rgb(143, 145, 145); /*点の色*/
+}
+
+#plus {
+  color:rgb(240, 8, 8);
+}
